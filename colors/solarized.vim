@@ -569,7 +569,7 @@ exe "hi! PreProc"        .s:fmt_none   .s:fg_orange .s:bg_none
 "        Macro           same as Define
 "        PreCondit       preprocessor #if, #else, #endif, etc.
 
-exe "hi! Type"           .s:fmt_none   .s:fg_yellow .s:bg_none
+exe "hi! Type"           .s:fmt_bold   .s:fg_yellow .s:bg_none
 "       *Type            int, long, char, etc.
 "        StorageClass    static, register, volatile, etc.
 "        Structure       struct, union, enum, etc.
@@ -786,6 +786,7 @@ exe "hi! texRefLabel"    . s:fg_yellow .s:bg_back   .s:fmt_none
 " ---------------------------------------------------------------------
 exe "hi! rubyDefine"     . s:fg_base1    .s:bg_back   .s:fmt_bold
 exe "hi! rubySymbol"     . s:fg_magenta  .s:bg_back
+exe "hi! rubyString"     . s:fg_red      .s:bg_back
 "rubyInclude
 "rubySharpBang
 "rubyAccess
